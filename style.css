@@ -38,6 +38,7 @@ img, video {
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     color: #121113;
+    font-size: 15px;
 }
 
 .navbar {
@@ -391,4 +392,5 @@ img, video {
         margin-bottom: 15px;
     }
 }
+
 
