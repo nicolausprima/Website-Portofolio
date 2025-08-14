@@ -384,7 +384,7 @@ img, video {
     }
     .menu{
         margin-top: -30px;
-        align-items: center;
+        text-align: left;
         flex-direction: column;
         gap: 5px;
         margin-left: -356px;
@@ -396,6 +396,7 @@ img, video {
         margin-left: -140px;
     }
 }
+
 
 
 
