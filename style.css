@@ -395,7 +395,11 @@ img, video {
     .name {
         margin-left: -50px;
     }
+    * {
+        -webkit-tap-highlight-color: transparent;
+      }
 }
+
 
 
 
