@@ -42,7 +42,7 @@ img, video {
 }
 
 .navbar {
-    position: fixed;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -399,6 +399,7 @@ img, video {
         -webkit-tap-highlight-color: transparent;
       }
 }
+
 
 
 
