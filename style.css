@@ -181,7 +181,7 @@ img, video {
     font-size: 12px;
     padding-top: 3px;
     padding-left: 1px;
-    margin-top:-6px;
+    margin-top:-5px;
     margin-left: 16px;
     color: #4a484b;
 }
@@ -399,6 +399,7 @@ img, video {
         -webkit-tap-highlight-color: transparent;
       }
 }
+
 
 
 
