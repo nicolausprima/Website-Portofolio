@@ -89,6 +89,14 @@ img, video {
     object-fit: cover;
 }
 
+.description {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
 .description p {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
@@ -99,9 +107,10 @@ img, video {
 }
 
 .description h3 {
-    display: block;
+    display: flex;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     color: #181D20;
     font-size: 25px;
     margin-top: 50px;
@@ -408,7 +417,7 @@ img, video {
     }
     
     .navbar {
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
@@ -442,7 +451,15 @@ img, video {
     .name {
         margin-left: -190px;
     }
-    
+
+    .description h3 {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        text-align: center;
+        margin-left: -1px;
+    }
+
     * {
         -webkit-tap-highlight-color: transparent;
     }
