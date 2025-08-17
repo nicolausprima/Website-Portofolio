@@ -79,7 +79,7 @@ img, video {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .myphoto img {
@@ -475,5 +475,6 @@ img, video {
         -webkit-tap-highlight-color: transparent;
     }
 }
+
 
 
