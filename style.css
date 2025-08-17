@@ -396,6 +396,10 @@ img, video {
 }
 
 @media (max-width: 768px) {
+    .name {
+        margin-top: -10px;
+    }
+    
     .container {
         flex-direction: column;
     }
@@ -471,3 +475,4 @@ img, video {
         -webkit-tap-highlight-color: transparent;
     }
 }
+
