@@ -414,6 +414,7 @@ img, video {
     .myphoto img {
         width: 150px;
         height: 150px;
+        margin-top: -20px;
     }
     
     .navbar {
@@ -457,7 +458,13 @@ img, video {
         align-items: baseline;
         justify-content: center;
         text-align: center;
-        margin-left: -1px;
+        margin-left: -0.5px;
+    }
+
+    .typed-cursor {
+        vertical-align: text-bottom; 
+        position: relative;
+        top: 2px; 
     }
 
     * {
