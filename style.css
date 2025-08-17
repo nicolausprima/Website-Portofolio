@@ -419,7 +419,7 @@ img, video {
     .myphoto img {
         width: 150px;
         height: 150px;
-        margin-top: -40px;
+        margin-top: -80px;
     }
     
     .navbar {
@@ -516,3 +516,4 @@ img, video {
         -webkit-tap-highlight-color: transparent;
     }
 }
+
